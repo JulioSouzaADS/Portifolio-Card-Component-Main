@@ -1,0 +1,31 @@
+@media ( max-width :975px) {
+
+   .quadro-secundario {
+    flex-direction: column-reverse;
+    width: 100%;
+   }
+   .conteudo-direita {
+    width: 100%;
+    flex-wrap: wrap;
+ 
+   }
+   .conteudo-direita .titulo-01 {
+    text-align: center;
+    justify-content: center;
+   
+   }
+
+   .conteudo-direita p {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10%;
+   }
+   .conteudo-direita .info {
+    display: block;
+    flex-direction: column;
+   }
+
+   .conteudo-direita .info p {
+    margin: 25px;
+}
+}
